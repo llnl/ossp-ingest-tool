@@ -23,6 +23,8 @@ docker run --rm -p 127.0.0.1:5000:5000 --name ossp-server ossp-server
 ```
 Now, use a web browser to navigate to [localhost:5000](http://localhost:5000). The OSSP web page should display.
 
+Although implemented as a web application, the OSSP Ingest Tool is meant for use on a local computer or a fully trusted local network. It offers no authentication mechanisms. Any user with access to the app locally or via network can read and write any data in the app.
+
 ## Typical Workflow
 
 ### 1. Ingest SBOM and Asset data
