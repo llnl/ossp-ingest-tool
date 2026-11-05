@@ -19,7 +19,7 @@ docker build -f Dockerfile . -t ossp-server
 Run the container:
 
 ```bash
-docker run --rm -p 5000:5000 --name ossp-server ossp-server
+docker run --rm -p 127.0.0.1:5000:5000 --name ossp-server ossp-server
 ```
 Now, use a web browser to navigate to [localhost:5000](http://localhost:5000). The OSSP web page should display.
 
